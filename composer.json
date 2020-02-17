@@ -1,7 +1,13 @@
 {
     "name": "depa/depa-tooling",
     "description": "Migration and development tooling for Depa",
-    "license": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirko Fenrich",
+            "email": "fenrich@designpark.de"
+        }
+    ],
     "keywords": [
         "depa",
         "laminas",
@@ -18,5 +24,9 @@
     },
     "bin": [
         "bin/depa"
-    ]
+    ],
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
 }
