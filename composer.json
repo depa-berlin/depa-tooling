@@ -22,6 +22,11 @@
         "ocramius/package-versions": "^1.4",
         "symfony/console": "^4.4"
     },
+    "autoload": {
+        "psr-4": {
+            "Depa\\Tooling\\": "src/"
+        }
+    },
     "bin": [
         "bin/depa"
     ],
