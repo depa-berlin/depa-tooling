@@ -5,6 +5,8 @@ namespace Depa\Tooling\ActiveRecord;
 
 
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 
 class CreateActiveRecordCommand extends Command
 {
@@ -23,7 +25,6 @@ EOT;
     {
         $this->setDescription('Create a ActiveRecord');
         $this->setHelp(self::HELP);
-        CommandCommonOptions::addDefaultOptionsAndArguments($this);
     }
 
     protected function execute(InputInterface $input, OutputInterface $output) : int
