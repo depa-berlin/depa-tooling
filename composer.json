@@ -17,9 +17,9 @@
         "sort-packages": true
     },
     "require": {
+        "composer/package-versions-deprecated": "1.11.99.1",
         "laminas/laminas-code": "^3.4",
         "laminas/laminas-db": "^2.11",
-        "ocramius/package-versions": "^1.4",
         "symfony/console": "^4.4"
     },
     "autoload": {
